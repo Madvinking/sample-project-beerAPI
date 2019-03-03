@@ -1,0 +1,90 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+/* headers */
+header {
+	display: flex;
+	justify-content: space-between;
+	background-color: rgb(1,203,169);
+	color: white;
+}
+
+#headerTitle {
+	font-weight: 20;
+	margin-left: 10px;
+}
+
+#navigation {
+	display: flex;
+	justify-content: space-around;
+	width: 200px;
+	align-items: center;
+	font-size: 1.3em;
+}
+
+.selected {
+	font-size: 1.5em;
+}
+
+/* searchPanel */
+
+#searchPanel {
+	display: flex;
+	justify-content: center;
+	margin-top: 50px;
+}
+
+#searchBar {
+	width: 350px;
+	height: 30px;
+}
+
+#searchButton {
+	background-color:#1e90ff;
+	color: white
+}
+
+/* results */
+
+#results {
+	width: 70%;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: stretch;
+	margin: auto;
+	margin-top: 40px;
+}
+
+.beerContainer {
+	border: 1px solid gray;
+	border-radius: 15px;
+	height: 200px;
+	width: 300px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.beerImg {
+	width: 50px;
+	height: 150px
+}
+
+.beerTitle {
+	font-size: 20px;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+.beerDescription {
+	font-size: 15px;
+	width: 80%;
+	margin: auto;
+}
+
+.FavoriteIcon {
+	align-self: flex-start;
+	margin-top: 20px;
+	margin-right:10px;
+}
